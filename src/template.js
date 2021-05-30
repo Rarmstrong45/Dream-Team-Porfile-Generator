@@ -14,16 +14,16 @@ const generateCards = templateData => {
     return `
             <body>
                 <div class="header-wrapper">
-                    <h1>Team Profiles</h1>
+                    <h1>Team Profiles <i class="fa fa-user-circle-o" aria-hidden="true"></i> </h1>
                 </div>
-                <div class = "grid">
+                <div class = "grid"> 
                 ${templateData.map((emp) => {
         return `
                     <div>
-                        <h2>${emp.getName()}</h2>
+                        <h2><i class="fa fa-address-card-o" aria-hidden="true"></i>${emp.getName()}</h2>
                         <h3>${emp.getRole()}</h3>
                         <p>${emp.getId()}</p>
-                        <p>Email: <a href="mailto://${emp.getEmail()}">${emp.getEmail()}</a></p>
+                        <p>Email: <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto://${emp.getEmail()}">${emp.getEmail()}</a></p>
                         <p>${user(emp)}</p>
                     </div>
     `
@@ -46,8 +46,9 @@ module.exports = templateData => {
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Team Profiles</title>
          <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>   
-            ${generateCards(templateData)}                   
+            ${generateCards(templateData)}    
         </html>
         `
 };
