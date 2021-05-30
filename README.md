@@ -29,7 +29,7 @@ You could update the tests by adding additional roles or prompts for each sectio
  
 
 ## GitHub
-http://rarmstrong45.github.io 
+https://github.com/Rarmstrong45
 
 ## E-mail
 Ryan_armstrong07@yahoo.com
