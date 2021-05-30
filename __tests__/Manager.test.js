@@ -11,13 +11,13 @@ test('creates manager object', () => {
     expect(manager.officeNumber).toBe('007');
 });
 
-test('gets managers office number', () => {
+test('receives managers office number', () => {
     manager = new Manager('Ryan', '31', 'Ryan_armstrong07@yahoo.com', '007');
 
     expect(manager.getOfficeNumber()).toBe('Office Number: 007');
 });
 
-test('gets managers role', () => {
+test('receives managers role', () => {
     manager = new Manager('Ryan', '31', 'Ryan_armstrong07@yahoo.com', '007');
 
     expect(manager.getRole()).toBe("Role: Manager")
