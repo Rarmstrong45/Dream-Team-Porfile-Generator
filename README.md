@@ -1,5 +1,7 @@
 # Dream Team Profile Generator
 
+# Link to Video Walk Through - https://drive.google.com/file/d/1MIKBcq7XUlIaPtMKpPro_O5eCvBmQJdl/view
+
 ## Table of Contents:
   1. [Description](#description) 
   2. [Installation](#Installation)
