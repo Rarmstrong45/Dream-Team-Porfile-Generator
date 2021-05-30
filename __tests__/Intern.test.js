@@ -10,13 +10,13 @@ test('creates intern object', () => {
     expect(intern.school).toBe('University of Texas Austin');
 });
 
-test('gets the interns school', () => {
+test('receives the interns school', () => {
     const intern = new Intern('Ryancuddeback', 'Ryan', '31', 'University of Texas Austin');
 
     expect(intern.getSchool()).toBe('School: University of Texas Austin');
 });
 
-test('gets the interns role', () => {
+test('receives the interns role', () => {
     const intern = new Intern('Ryancuddeback', 'Ryan', '31', 'University of Texas Austin');
 
     expect(intern.getRole()).toBe('Role: Intern');
